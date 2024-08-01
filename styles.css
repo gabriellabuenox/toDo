@@ -1,0 +1,107 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Andale+Mono&display=swap');
+
+body {
+    font-family: 'Andale Mono', monospace;
+    background-color: #F5DFE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    padding: 20px;
+    border-radius: 1px;
+    width: 300px;
+    border: 1px solid #1000CC; 
+    box-sizing: border-box; 
+}
+
+.title-container {
+    background-color: #1000CC; /* Cor de fundo para a caixa do título */
+    padding: 10px;
+    border-radius: 5px; /* Arredondar os cantos da caixa do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.title-container h1 {
+    color: white; /* Cor do texto do título */
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza o texto */
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px; /* Ajuste o espaço entre o input-container e a lista */
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px 0 0 3px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #1000CC;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Ajuste a cor de fundo no hover */
+}
+
+ul {
+    list-style: none; /* Remove a bolinha da lista */
+    padding: 0;
+    margin: 0; 
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+li button {
+    background-color: #F5DFE8;
+    border: none;
+    color: #1000CC; /* Ajusta a cor do texto no botão */
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-color: #1000CC;
+}
+
+li button:hover {
+    background-color: #1000CC;
+    color: white; /* Ajusta a cor do texto no hover */
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+ul li::marker {
+    content: none; /* Remove o marcador da lista */
+}
