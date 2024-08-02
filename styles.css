@@ -2,7 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Andale+Mono&display=swap');
 
+ * {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
+    
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+main {
     font-family: 'Andale Mono', monospace;
     background-color: #F5DFE8;
     display: flex;
