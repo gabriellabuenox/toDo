@@ -8,14 +8,23 @@
 
 }
 
-body {
+/* body { */
     
-}
+/* } */
 
 header {
     height: 50px;
     width: 100%;
-    background-color: red;
+    background-color: #F5DFE8
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: #F5DFE8;
+    font-family: 'Andale Mono', monospace;
+    font-size: 4px;
+    text-align: center;
 }
 
 main {
@@ -23,14 +32,15 @@ main {
     background-color: #F5DFE8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; 
     height: 100vh;
     margin: 0;
 }
 
+
 .todo-container {
     padding: 20px;
-    border-radius: 5px; /* Ajustado para arredondar os cantos */
+    border-radius: 5px; 
     width: 300px;
     border: 1px solid #1000CC; 
     box-sizing: border-box; 
