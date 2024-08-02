@@ -14,7 +14,7 @@ body {
 
 .todo-container {
     padding: 20px;
-    border-radius: 1px;
+    border-radius: 5px; /* Ajustado para arredondar os cantos */
     width: 300px;
     border: 1px solid #1000CC; 
     box-sizing: border-box; 
