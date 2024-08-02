@@ -8,9 +8,10 @@
 
 }
 
-/* body { */
-    
-/* } */
+body { 
+    height: 100vh;
+    background-color: #F5DFE8;
+ } 
 
 header {
     height: 50px;
@@ -21,19 +22,20 @@ header {
 footer {
     height: 30px;
     width: 100%;
-    background-color: #F5DFE8;
     font-family: 'Andale Mono', monospace;
     font-size: 4px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 main {
     font-family: 'Andale Mono', monospace;
-    background-color: #F5DFE8;
+    
     display: flex;
     justify-content: center;
     align-items: flex-start; 
-    height: 100vh;
+    /* height: 100%; */
     margin: 0;
 }
 
